@@ -1,0 +1,49 @@
+{
+  "name": "sip-backend",
+  "version": "1.0.0",
+  "description": "Backend for the sip app",
+  "main": "app.js",
+  "scripts": {
+    "build": "npm install",
+    "build-prod": "npm install",
+    "start": "node app.js",
+    "start-local": "nodemon --inspect app.js",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@newrelic/winston-enricher": "^1.0.0",
+    "axios": "^0.21.1",
+    "aws-sdk": "^2.1066.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "firebase-admin": "^9.11.0",
+    "flat": "^5.0.2",
+    "helmet": "^4.6.0",
+    "http-status": "^1.5.0",
+    "jest": "^27.0.6",
+    "joi": "^17.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "jwt-decode": "^3.1.2",
+    "moment-timezone": "^0.5.33",
+    "mongodb": "^3.6.9",
+    "mongoose": "^5.13.0",
+    "multer": "^1.4.2",
+    "multer-s3": "^2.10.0",
+    "nodemailer": "^6.7.2",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "shortid": "^2.2.16",
+    "socket.io": "^2.3.0",
+    "stripe": "^8.195.0",
+    "winston": "^3.3.3",
+    "winston-splunk-httplogger": "^2.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.9"
+  }
+}

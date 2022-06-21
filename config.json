@@ -1,0 +1,23 @@
+{
+    "MONGODB": {
+        "GLOBAL": {
+            "DATABASE": {
+                "SIP": {
+                    "COLLECTION": {
+                        "ADMIN": "admin",
+                        "CODE_REGISTRATION": "code_registration",
+                        "CODE_VERIFICATION": "code_verification",
+                        "LOG": "log",
+                        "PROPERTY": "property",
+                        "USER":"user",
+                        "ROLE":"role",
+                        "AMENITIES":"amenities"
+                    },
+                    "NAME": "sip"
+                }
+            },
+            "URI": "mongodb+srv://vishv123:vishv123@cluster0.p1b0s.mongodb.net/sip",
+            "USE_TEST_PIN": "true"
+        }
+    }
+}

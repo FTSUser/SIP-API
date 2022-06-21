@@ -1,0 +1,8 @@
+{
+    "GENERAL" :                         {
+        "id" :      0,
+        "name" :    "Sip",
+        "summary" : "Hi!",
+        "message" : ""
+    }
+}
